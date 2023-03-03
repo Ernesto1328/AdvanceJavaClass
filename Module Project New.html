@@ -8,21 +8,43 @@
   <link rel="stylesheet" href="style.css" type= "text/css" >
 </head>
 <body>
+  <script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+<button onmouseover="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
   <div>
-    <h1> The Fantasy Experience</h1>
+    <h1> NEW TITLE</h1>
     <ul>
       <li><a href="Module Project New.html" target="_self">Home</a></li>
       <li><a href="menu.html" target="_self">menu</a></li>
       <li><a href="Contact.html" target="_self">Contact</a></li>
     </ul>
     <br>
-    <img src="img/Birthday.jpg" alt="Catering" width="200px" height="200px">
-    <h3 id ="para1" class="center"> Feeling Hungry Here</h3>
-    <a href="https://www.crepemaker.com/benefits-of-hiring-a-catering-company-for-your-events" target="-_blank"> benefits of catering</a>
-    <a href="https://www.davidalancaterers.com/post/how-to-choose-the-best-catering-company" target="_blank">choosing a catering company</a>
+    <img src="img/Birthday.jpg" alt="Catering" width="100px" height="100px">
+    <h3 id ="para1" class="center"> Feeling LIKE NEW Here</h3>
+    <a href="https://www.crepemaker.com/benefits-of-hiring-a-catering-company-for-your-events" target="-_blank"> benefits </a>
+    <a href="https://www.davidalancaterers.com/post/how-to-choose-the-best-catering-company" target="_blank">choosing</a>
   </div>
   <div class="Foot">
-    The Fantasy Experience, USA<br>
+    NEW TITLE, USA<br>
     www.thefantasyexperience.com<br>
     (800)222-3333<br>
     Miami, FL 33186
