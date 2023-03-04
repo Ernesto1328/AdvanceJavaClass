@@ -12,6 +12,6 @@ Scanner input = new Scanner(System.in);
         double squareRoot = Math.sqrt(num);
         System.out.println("The square root of " + num + " is " + squareRoot);
         
-        input.close();
+        
 }
 }
